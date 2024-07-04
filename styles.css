@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(231, 250, 234);
+    height: 50px;
+}
+#logo {
+    width:70px;
+    height: 50px;
+}
+table{
+
+    border: 2px;
+    border-style: groove;
+    border-color: #111;
+    margin: 0 auto;
+}
+
+th,td {
+    text-align: center;
+    width: 20%; 
+}
+
+.inline {
+    display: inline; 
+}
+h1{
+    font-size: 80px;
+    align-content: center;
+    text-align: center;
+}
+h2{ 
+    font-size: 50px;
+    color: blue;
+}
+h3{ 
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: #333;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+footer
+{
+    background-color: darkgray;
+    text-align: center;
+    color:white;
+    width: 100%;
+}
+
+#fondo
+{
+    width:100%;
+    height: 700%;
+}
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+    color: #e2e2e2;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #e2e2e2;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.content {
+    margin-left: 200px; /* Ajusta según el ancho de la barra lateral */
+    padding: 20px;
+}
+h1,h2,h3,h4,p,ul,li,table,img{
+    animation: slideIn 2s ease forwards; /* Animación de desplazamiento */
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-50%); /* Iniciar fuera de la pantalla a la izquierda */
+    }
+    to {
+        transform: translateX(0); /* Terminar en la posición inicial */
+    }
+}
