@@ -1,0 +1,118 @@
+<html>
+<div class="content">
+
+    <head>
+        <title>Atributos Html</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>ATRIBUTOS HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">INICIO</a></li>
+                <li><a href="introduccion.html">INTRODUCCIÓN</a></li>
+                <li><a href="editores.html">EDITORES HTML</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar">
+            <a href="inicio.html">INICIO</a>
+            <a href="introduccion.html">INTRODUCCION</a>
+            <a href="editores.html">EDITORES</a>
+        </div>
+        <div id="contenido">
+            <p>Los atributos HTML proporcionan información adicional sobre los elementos HTML. </p>
+            <h3>Atributos HTML </h3>
+            <ul>
+                <li>Todos los elementos HTML pueden tener atributos</li>
+                <li>Los atributos proporcionan información adicional sobre los elementos.</li>
+                <li>Los atributos siempre se especifican en la etiqueta de inicio</li>
+                <li>Los atributos generalmente vienen en pares nombre/valor como: nombre="valor"</li>
+            </ul>
+            <h3>El atributo href </h3>
+            <p>La &lt;a&gt; etiqueta define un hipervínculo. El hrefatributo especifica la URL de la página a la que
+                lleva el vínculo:</p>
+            <h3>El atributo src</h3>
+            <p>La &lt;img&gt; etiqueta se utiliza para incrustar una imagen en una página HTML. El srcatributo
+                especifica la ruta a la imagen que se mostrará:</p>
+            <p>Hay dos formas de especificar la URL en el src atributo: </p>
+            <p>1. URL absoluta : enlaces a una imagen externa alojada en otro sitio web. <br> Ejemplo:
+                src="https://www.w3schools.com/images/img_girl.jpg" .</p>
+            Notas: Las imágenes externas pueden estar sujetas a derechos de autor. Si no obtiene permiso para usarlas,
+            puede estar infringiendo las leyes de derechos de autor. Además, no puede controlar las imágenes externas;
+            pueden eliminarse o modificarse repentinamente.
+            <p>2. URL relativa : enlaces a una imagen alojada en el sitio web. En este caso, la URL no incluye el nombre
+                de dominio. Si la URL comienza sin una barra, será relativa a la página actual. Ejemplo:
+                src="img_girl.jpg". Si la URL comienza con una barra, será relativa al dominio. Ejemplo:
+                src="/images/img_girl.jpg".x</p>
+            <p>Consejo: casi siempre es mejor utilizar URL relativas. No se romperán si cambias de dominio.
+            </p>
+            <h3>Los atributos de ancho y alto
+            </h3>
+            <p>La &lt;img&gt; etiqueta también debe contener los atributos widthy height, que especifican el ancho y la
+                altura de la imagen (en píxeles):</p>
+            <h3>El atributo alt </h3>
+            <p>El atributo requerido altpara la &lt;img&gt; etiqueta especifica un texto alternativo para una imagen, si
+                por
+                algún motivo no se puede mostrar la imagen. Esto puede deberse a una conexión lenta, a un error en el
+                srcatributo o si el usuario utiliza un lector de pantalla.</p>
+            <h3>El atributo de estilo </h3>
+            <p>El styleatributo se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más. </p>
+            <h3>El atributo lang
+            </h3>
+            <p>Siempre debe incluir el langatributo dentro de la &lt;html&gt; etiqueta para declarar el idioma de la
+                página
+                web. Esto tiene como objetivo ayudar a los motores de búsqueda y navegadores.
+            </p>
+            <p>El siguiente ejemplo especifica el inglés como idioma: </p>
+            <p>También se pueden añadir códigos de país al código de idioma en el lang atributo. De esta forma, los dos
+                primeros caracteres definen el idioma de la página HTML y los dos últimos, el país.
+                <br>El siguiente ejemplo especifica inglés como idioma y Estados Unidos como país:
+            </p>
+            <h3>El título Atributo
+            </h3>
+            <p>El titleatributo define información adicional sobre un elemento.
+                <br>El valor del atributo de título se mostrará como información sobre herramientas cuando pase el mouse
+                sobre el elemento:
+            </p>
+            <h3>Sugerimos: Utilice siempre atributos en minúsculas </h3>
+            <p>El estándar HTML no requiere nombres de atributos en minúsculas.
+                <br> El atributo de título (y todos los demás atributos) se pueden escribir con mayúsculas o minúsculas
+                como title o TITLE .
+                <br>Sin embargo, W3C recomienda atributos en minúscula en HTML y exige atributos en minúscula para tipos
+                de documentos más estrictos como XHTML.
+            </p>
+            <h3>Sugerimos: Siempre citar los valores de los atributos
+            </h3>
+            <p>El estándar HTML no requiere comillas alrededor de los valores de los atributos.
+                <br> Sin embargo, W3C recomienda comillas en HTML y exige comillas para tipos de documentos más
+                estrictos como XHTML.
+            </p>
+            <h3>¿Comillas simples o dobles? </h3>
+            <p>Las comillas dobles alrededor de los valores de atributos son las más comunes en HTML, pero también se
+                pueden utilizar comillas simples.
+                <br> En algunas situaciones, cuando el propio valor del atributo contiene comillas dobles, es necesario
+                utilizar comillas simples:
+            </p>
+            <h3>Resumen del capítulo
+            </h3>
+            <ul>
+                <li>Todos los elementos HTML pueden tener atributos
+                </li>
+                <li>El href atributo de <a> especifica la URL de la página a la que va el enlace .</li>
+                <li>El src atributo de <img> especifica la ruta a la imagen que se mostrará </li>
+                <li>Los atributos width y pro porcionan información sobre el tamaño de las imágenesheight<img> </li>
+                <li>El alt atributo de <img> proporciona un texto alternativo para una imagen. </li>
+                <li>El style atributo se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más. </li>
+                <li>El lang atributo de la <html> etiqueta declara el idioma de la página web. </li>
+                <li>El title atributo define información adicional sobre un elemento. </li>
+            </ul>
+        </div>
+        <footer>
+            <p>Creado por: Adriana Cornejo</p>
+            <p>Instituto Tecnológico Superior del Azuay con Condición Universitaria</p>
+            <a href="https://www.tecazuay.edu.ec">TEC AZUAY</a>
+        </footer>
+</div>
+
+</html>

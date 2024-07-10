@@ -6,6 +6,10 @@ body{
     width:70px;
     height: 50px;
 }
+#nota {
+  background-color: rgb(211, 208, 164);
+  display: -ms-inline-grid;
+}
 table{
 
     border: 2px;
@@ -80,11 +84,12 @@ footer
     background-color: #111;
     padding-top: 20px;
     color: #e2e2e2;
+    
 }
 
 .sidebar a {
-    display: block;
-    padding: 10px;
+    display: flex;
+    padding: 4px;
     text-decoration: none;
     color: #e2e2e2;
 }
@@ -97,14 +102,18 @@ footer
     margin-left: 200px; /* Ajusta según el ancho de la barra lateral */
     padding: 20px;
 }
+/*
 h1,h2,h3,h4,p,ul,li,table,img{
     animation: slideIn 2s ease forwards; /* Animación de desplazamiento */
+    /*
 }
 @keyframes slideIn {
     from {
         transform: translateX(-50%); /* Iniciar fuera de la pantalla a la izquierda */
+        /*
     }
     to {
-        transform: translateX(0); /* Terminar en la posición inicial */
+        transform: translateX(0); /* Terminar en la posición inicial *//*
     }
 }
+*/
