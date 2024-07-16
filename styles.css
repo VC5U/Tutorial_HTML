@@ -18,6 +18,7 @@ table{
     margin: 0 auto;
 }
 
+
 th,td {
     text-align: center;
     width: 20%; 
@@ -39,9 +40,13 @@ h3{
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
+h4{ 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
 
 nav {
-    background-color: #333;
+    background-color: #555454;
 }
 nav ul {
     list-style-type: none;
@@ -56,7 +61,7 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px ;
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -82,16 +87,17 @@ footer
     top: 0;
     left: 0;
     background-color: #111;
-    padding-top: 20px;
-    color: #e2e2e2;
-    
+    padding-top: 10px;  
+    color: #555454;
+    overflow-y: auto; /* Scroll vertical */
 }
 
 .sidebar a {
     display: flex;
     padding: 4px;
+    font-size: 12px;
     text-decoration: none;
-    color: #e2e2e2;
+    color: #555454;
 }
 
 .sidebar a:hover {
@@ -102,18 +108,16 @@ footer
     margin-left: 200px; /* Ajusta según el ancho de la barra lateral */
     padding: 20px;
 }
-/*
+
 h1,h2,h3,h4,p,ul,li,table,img{
     animation: slideIn 2s ease forwards; /* Animación de desplazamiento */
-    /*
 }
 @keyframes slideIn {
     from {
         transform: translateX(-50%); /* Iniciar fuera de la pantalla a la izquierda */
-        /*
+        
     }
     to {
-        transform: translateX(0); /* Terminar en la posición inicial *//*
+        transform: translateX(0); /* Terminar en la posición inicial */
     }
 }
-*/

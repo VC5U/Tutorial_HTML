@@ -1,0 +1,172 @@
+<div class="content">
+
+    <head>
+
+        <title>BÁSICO Html</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1>ATRIBUTOS DE FORMULARIO HTML</h1>
+
+        <nav>
+            <ul>
+                <li><a href="inicio.html">INICIO</a></li>
+                <li><a href="introduccion.html">INTRODUCCIÓN</a></li>
+                <li><a href="editores.html">EDITORES HTML</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar">
+            <h4>TUTORIAL HTML</h4>
+            <a href="inicio.html">INICIO HTML</a>
+            <a href="introduccion.html">INTRODUCCION HTML</a>
+            <a href="editores.html">EDITORES HTML</a>
+            <a href="basic.html">HTML BÁSICO</a>
+            <a href="elements.html">ELEMENTOS HTML</a>
+            <a href="attributes.html">ATRIBUTOS HTML</a>
+            <a href="encabezados.html">ENCABEZADOS HTML</a>
+            <a href="paragraphs.html">PARAFOS HTML</a>
+            <a href="estilos.html">ESTILOS HTML</a>
+            <a href="formato.html">FORMATO HTML</a>
+            <a href="editores.html"> HTML</a>
+            <a href="comentarios.html">COMENTARIOS HTML</a>
+            <a href="colores.html">COLORES HTML</a>
+            <a href="html_css.html">CSS HTML</a>
+            <a href="enlaces.html">ENLACES HTML</a>
+            <a href="imagenes.html">IMAGENES HTML</a>
+            <a href="attributes.html">ATRIBUTOS HTML</a>
+            <a href="iconofavorito.html">ICONOS HTML</a>
+            <a href="titulopag.html">TITULOS DE PAGINAS HTML</a>
+            <a href="tablas.html">TABLAS HTML</a>
+            <a href="lista.html/">LISTAS HTML</a>
+            <a href="bloque.html"> BLOQUES Y LINEAS HTML</a>
+            <a href="division.html">DIVISION HTML</a>
+            <a href="titulopag.html">CLASES HTML</a>
+            <a href="tablas.html">IDENTIFICACION HTML</a>
+            <a href="lista.html/">MARCOS HTML</a>
+            <a href="bloque.html"> HTML JAVASCRIPT</a>
+            <a href="division.html">RUTAS DE ARCHIVOS HTML</a>
+            <h4>FORMULARIOS HTML</h4>
+            <a href="formularios.html">FORMULARIOS HTML</a>
+            <a href="Atributos_formulario.html">ATRIBUTOS DE FORMULARIOS HTML</a>
+            <a href="Elementos_formulario.html">ELEMENTOS DE FORMULARIOS HTML</a>
+            <a href="tablas.html">TIPOS DE ENTRADA HTML</a>
+            <a href="lista.html/">ATRIBUTOS DE ENTRADA HTML</a>
+            <a href="lista.html/">ATRIBUTOS DEL FORMULARIO HTML</a>
+            <h4>GRÁFICOS HTML</h4>
+            <a href="bloque.html">LIENZO HTML</a>
+            <a href="division.html">HTML SVG</a>
+            <h4>MEDIOS HTML</h4>
+            <a href="bloque.html">MEDIOS HTML</a>
+            <a href="division.html">VIDEOS HTML</a>
+            <a href="division.html">AUDIOSHTML</a>
+            <a href="tablas.html">COMPLEMENTOS HTML</a>
+            <a href="tablas.html">YOUTUBE EN FORMATO HTML</a>
+            <h4>API HTML</h4>
+            <a href="bloque.html">GEOLOCALIZACION HTML</a>
+            <a href="bloque.html">ARRASTRAR Y SOLTAR HTML</a>
+            <a href="bloque.html">ALMACENAMIENTO WEB HTML</a>
+            <a href="bloque.html">TRABAJADORES WEB HTML</a>
+            <a href="bloque.html">HTML SSE</a>
+        </div>
+        <div id="contenido">
+            <hr>
+            <p>Este capítulo describe los diferentes atributos del &lt;form&gt;elemento HTML. </p>
+            <hr>
+            <h3>El atributo de acción </h3>
+            <p>El actionatributo define la acción que se realizará cuando se envía el formulario.    </p> 
+            <p> Normalmente, los datos del formulario se envían a un archivo en el servidor cuando el usuario hace clic
+                en el botón enviar. </p>
+            <p> En el ejemplo siguiente, los datos del formulario se envían a un archivo llamado "action_page.php". Este
+                archivo contiene un script del lado del servidor que maneja los datos del formulario: </p>
+            <p>Consejo: action si se omite el atributo, la acción se establece en la página actual. </p>
+            <h3>El atributo objetivo </h3>
+            <p>El target atributo especifica dónde mostrar la respuesta que se recibe después de enviar el formulario.</p>
+            <p>El target atributo puede tener uno de los siguientes valores:</p>
+            <table>
+                <tr>
+                    <th>Valor</th> <th>Descripción</th>
+                </tr> <tr>
+                    <td>_blank</td> <td>La respuesta se muestra en una nueva ventana o pestaña</td>
+                </tr> <tr>
+                    <td>_self</td><td>La respuesta se muestra en la ventana o pestaña actual</td>
+                </tr> <tr>
+                    <td>_parent</td> <td>La respuesta se muestra en el marco padre</td>
+                </tr> <tr>
+                    <td>_top</td> <td>La respuesta se muestra en la ventana completa del navegador</td>
+                </tr> <tr>
+                    <td>framename</td> <td>La respuesta se muestra en un iframe con nombre específico</td>
+                </tr>
+            </table>
+            <p>El valor predeterminado es , _self lo que significa que la respuesta se abrirá en la ventana actual. </p>
+            <img src="img/ejemplo_2.png" alt="">
+            <hr>
+            <h3>El atributo de método </h3>
+            <p>El method atributo especifica el método HTTP que se utilizará al enviar los datos del formulario.</p>
+            <p> Los datos del formulario se pueden enviar como variables URL (con method="get") o como transacciones
+                posteriores HTTP (con method="post").</p>
+            <p> El método HTTP predeterminado al enviar datos del formulario es GET. </p>
+            <img src="img/ejemplo_2.png" alt="">
+            <img src="img/ejemplo_2.png" alt="">
+            <h5>Notas sobre GET:</h5>
+            <ul>
+                <li>Añade los datos del formulario a la URL, en pares nombre/valor</li>
+                <li>¡NUNCA use GET para enviar datos confidenciales! (¡Los datos del formulario enviado son visibles en la URL!)</li>
+                <li>La longitud de una URL es limitada (2048 caracteres)</li>
+                <li>Útil para envíos de formularios en los que un usuario desea marcar el resultado como favorito.</li>
+                <li>GET es bueno para datos no seguros, como cadenas de consulta en Google </li>
+            </ul>
+            <h5>Notas sobre POST:</h5>
+            <ul>
+                <li>Agrega los datos del formulario dentro del cuerpo de la solicitud HTTP (los datos del formulario enviado no se muestran en la URL)</li>
+                <li>POST no tiene limitaciones de tamaño y puede usarse para enviar grandes cantidades de datos.                </li>
+                <li>Los envíos de formularios con POST no se pueden marcar como favoritos  </li>
+            </ul>
+            <div id="nota">
+                <p class="inline">
+                <h3 class="inline">Consejo: </h3>¡Utilice siempre POST si los datos del formulario contienen información confidencial o personal!   </p>
+            </div>
+            <hr>
+            <h3>El atributo de autocompletar   </h3>
+            <p>El autocompleteatributo especifica si un formulario debe tener la función de autocompletar activada o desactivada.</p>
+            <p>Cuando la función de autocompletar está activada, el navegador completa automáticamente los valores en función de los valores que el usuario haya ingresado anteriormente.</p>
+            <hr>
+            <h3>El atributo Novalidate</h3>
+            <p>El novalidateatributo es un atributo booleano.</p>Cuando está presente, especifica que los datos del formulario (entrada) no deben validarse al enviarse. </p>
+            <hr>
+            <h3>Lista de todos los atributos de &lt;form&gt; </h3>
+            <table>
+                <tr>
+                  <th>Atributo</th>  <th>Descripción</th>
+                </tr> <tr>
+                  <td>accept-charset</td>  <td>Especifica las codificaciones de caracteres utilizadas para el envío del formulario.</td>
+                </tr> <tr>
+                  <td>action</td><td>Especifica dónde enviar los datos del formulario cuando se envía un formulario.</td>
+                </tr> <tr>
+                  <td>autocomplete</td> <td>Especifica si un formulario debe tener la función de autocompletar activada o desactivada.</td>
+                </tr><tr>
+                  <td>enctype</td> <td>Especifica cómo se deben codificar los datos del formulario al enviarlos al servidor (solo para el método="post").</td>
+                </tr> <tr>
+                  <td>method</td> <td>Especifica el método HTTP que se utilizará al enviar datos de formulario.</td>
+                </tr><tr>
+                  <td>name</td> <td>Especifica el nombre del formulario.</td>
+                </tr> <tr>
+                  <td>novalidate</td><td>Especifica que el formulario no debe validarse al enviarse.</td>
+                </tr><tr>
+                  <td>rel</td> <td>Especifica la relación entre un recurso vinculado y el documento actual.</td>
+                </tr>  <tr>
+                  <td>target</td> <td>Especifica dónde mostrar la respuesta que se recibe después de enviar el formulario.</td>
+                </tr>
+              </table>
+
+        </div>
+
+    </body>
+    <footer>
+        <p>Creado por: Adriana Cornejo</p>
+        <p>Instituto Tecnologico Superior del Azuay con Condicion Universitaria</p>
+        <a href="https//:www.tecazuay.edu.ec">TECAZUAY</a>
+    </footer>
+</div>
+
+</html>
